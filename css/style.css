@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #edfbe2;
+    margin-top: -2%;
+}
+
+.header {
+    background-color: #bbf399;
+    padding: 1%;
+    
+}
+
+.blockLogo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    align-items: center;
+    margin: -1%;
+    height: 15%;
+    width: 10%;
+    background-color: hsl(283, 0%, 18%);
+
+    border-radius: 0 0 80% 0;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    height: 60%;
+}
+
+.naglowek {
+    display: block;
+    text-align: center;
+}
+
+.buttonLogo {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5%;
+    border-radius: 4px;
+}
+
+.header__descriptionH2 {
+margin-top: 3%;
+}
+
+.colorDescription{
+    color: #920000;
+}
+
+.navigation {
+    display: block;
+    height: 5%;
+    width: 100%;
+    margin-bottom: 0.5%;
+    padding: 0.5%;
+    text-decoration: none;
+    background-color: #5bbd42;
+}
+
+.navigation__orderlist {
+    list-style-type: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #284527;
+}
+
+.navigation__link:visited {
+    color: #b65555e4;
+}
+
+.navigation__link:hover {
+    color: #c3f1bf;
+}
+
+.navigation__link:active {
+    color: #d52405;
+}
+
+.main {
+    margin: 1%;
+    padding: 0.5%;
+    background-color: #bcf3994b;
+}
+
+.imgDelonixRegia {
+    height: 300px;
+}
+
+.footer {
+    display: block;
+    position: relative;
+    margin-top: 1%;
+    padding: 0.5%;
+    background-color: #bcf399;
+}
+
+.footerContact {
+    display: block;
+    position: relative;
+    background-color: #7ba702; 
+    border-radius: 10px;
+    width: 25%;
+    padding: 0.5%;
+}
+
+.footerContactNaglowek{
+    color: rgb(20, 39, 0);
+    line-height: 0;
+    text-align: center;
+}
+
+.dataContact {
+    display: flex;
+    flex-direction: column;
+    color: rgb(20, 39, 0);
+    padding: 1%;
+    border-radius: 5px;
+    background-color:#4a6500; 
+}
+
+.dataContactColorTextu {
+    color: white;
+}
+
+.footerCopyright {
+    text-align: center;
+}
